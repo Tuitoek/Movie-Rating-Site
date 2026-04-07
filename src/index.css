@@ -1,13 +1,13 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
- padding: 40px;
- background-color: #151515;
- font-family: "Franklin Gothic Medium", Arial;
+  padding: 40px;
+  background-color: #151515;
+  font-family: "Franklin Gothic Medium", Arial;
 }
 
 h2 {
@@ -26,6 +26,44 @@ h2 {
   margin: 0 auto;
 }
 
-.card{
-  border: 2px solid red;
+.card {
+  background-color: #31363f;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #4b5362;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  align-self: center;
+  color: violet;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  outline: 1px solid #f3f3f3;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  color: #ff10f0;
+  font-weight: 500px;
+  padding: 1rem;
+}
+
+.card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ff10f0;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  color: #f3f3f3;
+  font-weight: 500px;
+  padding: 0.5rem;
+  
+}
+
+.card blockquote {
+  font-size: 14px;
+  color: #f3f3f3;
+  text-decoration: wavy underline #ff10f0;
+  padding: auto;
 }

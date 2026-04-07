@@ -3,18 +3,10 @@ import './App.css'
 
 const Card = ({ title, rating, isCool, actors }) => {
   return (
-    <div className="card" style={{
-      backgroundColor: "#31363f",
-      padding: '20px',
-      margin: '10px',
-      border: "1px solid #4b5362",
-      borderRadius: '10px',
-      width: '200px',
-      textAlign: 'center', 
-      alignSelf: "center",
-    }}>
+    <div className="card">
       <h3>{title}</h3>
       <h4>{rating}</h4>
+      <blockquote>{isCool ? 'This movie is cool!' : 'This movie is not really that cool.'}</blockquote>
 
     </div>
   )
