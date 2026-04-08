@@ -33,8 +33,6 @@ h2 {
   border: 1px solid #4b5362;
   border-radius: 10px;
   width: 200px;
-  text-align: center;
-  align-self: center;
   color: violet;
 }
 
@@ -42,23 +40,21 @@ h2 {
   font-size: 24px;
   margin-bottom: 10px;
   outline: 1px solid #f3f3f3;
-  border-radius: 2rem;
-  margin-bottom: 2rem;
-  color: #ff10f0;
+  border-radius: 1rem;
   font-weight: 500px;
   padding: 1rem;
+  text-align: center;
 }
 
 .card h4 {
   font-size: 18px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ff10f0;
-  border-radius: 2rem;
   margin-bottom: 2rem;
   color: #f3f3f3;
   font-weight: 500px;
   padding: 0.5rem;
-  
+
 }
 
 .card blockquote {
@@ -66,4 +62,15 @@ h2 {
   color: #f3f3f3;
   text-decoration: wavy underline #ddc0db;
   padding: auto;
+}
+
+button {
+  background-color: transparent;
+  width: 100%;
+  color: #151515;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  align-self: right;
+  text-align: right;
 }
