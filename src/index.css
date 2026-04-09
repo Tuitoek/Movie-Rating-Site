@@ -74,3 +74,9 @@ button {
   align-self: right;
   text-align: right;
 }
+.click {
+  text-align: left;
+  margin-top: 1.5rem;
+  color: #f3f3f3;
+  font-size: 18px;
+}
